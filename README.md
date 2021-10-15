@@ -11,7 +11,7 @@ Backend
 - cd backend
 - virtualenv venv
 - pip install fastapi sqlalchemy pymysql uvicorn
-- uvicorn main:app --reload
+- uvicorn index:app --reload
 
 Docker
 - docker pull mysql
